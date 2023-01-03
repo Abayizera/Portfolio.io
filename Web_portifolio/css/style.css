@@ -1,0 +1,211 @@
+/*.web{
+	position: relative;
+	width: 100%;
+	height:auto;
+	border: 1px solid red;
+}*/
+*{
+	transition: 0.6s;
+}
+body{
+	background-color: azure;
+}
+.header{
+	border: 0px solid teal;
+	position: absolute;
+	left: 0%;
+	width: 100%;
+	height: 17%;
+}
+.logo{
+	border: 0px solid teal;
+	border-radius: 50%;
+	position: absolute;
+	left: 7%;
+	width: 12%;
+	height: 100%;
+	text-align: center;
+
+}
+.menubox{
+	border: 0px solid teal;
+	position: absolute;
+	left: 53%;
+	width: 45%;
+	height: 100%;
+}
+.header .menubox ul{
+	list-style: none;
+	
+}
+.header .menubox ul li{
+	display: inline-block;
+	padding: 10px;
+}
+.header .menubox ul li a{
+	text-decoration: none;
+	color: rgb(4, 17, 92);
+}
+.header .menubox ul li a:hover{
+	text-decoration: none;
+	color: teal;
+
+}
+.boxhome{
+	border: 0px solid teal;
+	position: absolute;
+	top: 23%;
+	left: 0%;
+	width: 100%;
+	height: 60%;
+}
+.details{
+	border: 0px solid teal;
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	width: 35%;
+	height: 85%;
+}
+.mypic{
+	border: 5px solid rgb(4, 17, 92);
+	position: absolute;
+	left: 60%;
+	top: 5%;
+	width: 30%;
+	height: 90%;
+	background-image: url(../image/img5.png);
+	background-size: cover;
+	border-radius: 0 40% 0 40%;
+	box-shadow: 25px red;
+}
+h2{
+	font-family: Copperplate Gothic;
+	font-weight: lighter;
+	color: rgb(4, 17, 92);
+}
+h1{
+	font-family: Blackadder ITC;
+	font-size: 350%;
+	color: rgb(4, 17, 150);
+}
+h4{
+	font-family: Papyrus;
+	font-weight: lighter;
+	color: rgb(4, 17, 92);
+}
+
+.box2{
+	border: 0px solid teal;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	width: 99%;
+	height: 100%;
+}
+.box3{
+	border: 0px solid teal;
+	position: absolute;
+	top: 200%;
+	left: 0%;
+	width: 99%;
+	height: 100%;
+}
+.box4{
+	border: 0px solid teal;
+	position: absolute;
+	top: 300%;
+	left: 0%;
+	width: 99%;
+	height: 100%;
+}
+.h2{
+	font-size: 210%;
+	padding-top: 5%;
+}
+table{
+	position: absolute;
+	top: 45%;
+	left: 11%;
+	padding: 5px;
+}
+th{
+	font-family: Copperplate Gothic;
+	font-weight: lighter;
+	color: rgb(4, 17, 92);
+	padding-left: 60px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+td{
+	font-family: Papyrus;
+	font-weight: lighter;
+	color: rgb(4, 17, 92);
+	padding-left: 55px;
+	text-align: center;
+
+}
+.up{
+	position: fixed;
+	top: 85%;
+	left: 90%;
+}
+.box3 ul{
+	list-style: none;
+}
+.box3 ul li{
+	font-family: Papyrus;
+	letter-spacing: 1px;
+	padding: 2%;
+	margin-left: 25%;
+	color: rgb(4, 17, 92);
+	font-weight: bold;
+}
+.contact{
+	position: absolute;
+	border: 1px solid rgb(4, 17, 92);;
+	left: 30%;
+	width: 40%;
+	height: 61%;
+
+}
+.contact .name input{
+	width: 90%;
+	height: 50%;
+	border: 2px solid rgb(4, 17, 92);;
+	padding: 2%;
+	border-radius: 5px;
+}
+textarea{
+	width: 90%;
+	height: 30%;
+	border: 2px solid rgb(4, 17, 92);;
+	padding: 2%;
+	border-radius: 5px;
+	resize: none;
+}
+h3{
+	font-family: Copperplate Gothic;
+	font-weight: lighter;
+	color: rgb(4, 17, 92);
+	text-align: center;
+
+}
+.sub input{
+	width: 35%;
+	height: 40%;
+	border: 2px solid rgb(4, 17, 92);;
+	padding: 2%;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+.sub input:hover{
+	width: 35%;
+	height: 40%;
+	border: 2px solid rgb(200, 200, 92);
+	padding: 2%;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgb(200, 200, 92);
+}
